@@ -1,0 +1,13 @@
+Linear regression 
+
+Let Y= a*X+b
+
+Then we say that Y depends on X
+
+Given some data  linear regression is the process of finding the line, plane or hyperplane, that better fits the given data
+
+If X is one dimensional them the process is a simple linear regression
+
+If X is two dimensional or above, them is call multiple linear regression
+
+If X and Y are multi-dimensional them it's call multivariate linear regression

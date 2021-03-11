@@ -1,0 +1,15 @@
+Gradient tape
+
+    records all the opeations inside the context, 
+    it is able to compute gradients for variables that are being whatch
+
+with tf.GradientTape() as tape:
+    #everithing declare in this context is being whatch, therefore diferentiable
+    #tf.constant declare autside are not beign whatch
+    whatch(some_thing)//make somethin
+
+    y=2
+
+    #gradient=tape.gradient('what to diferentiate','with respecto to what ')
+    #gradient is 
+

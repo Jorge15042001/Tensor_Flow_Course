@@ -1,0 +1,7 @@
+tensor flow operations
+
+in the graph variables and constant are the edges, but the operations are nodes, they recive  tensor or set of tensor through the edges, and manipulates them to give the output that gets send to the through the edges to the rest of the graph
+
+
+any thing that manipulates a tensor in someways is an operation
+
