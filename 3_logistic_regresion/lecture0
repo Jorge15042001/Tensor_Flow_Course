@@ -1,0 +1,7 @@
+Logistic regression 
+
+    Use for classification
+
+    It have an s shape
+
+    Formula = (1)/(1+e(-x))
