@@ -45,6 +45,29 @@ tf_test_y = tf.constant ( test_y, dtype = 'float32' )
 model_weights = tf.Variable (tf.zeros([4, 3]))
 model_biases = tf.Variable (tf.zeros ([3])) 
 
+# definition of logistic_regression function
+@tf.function
+def logistic_regression(input_vector):
+    # first lutiply the input vector by the weights
+    input_mult_weights = tf.matmul(input_vector, model_weights, name = "input_mult_weights")
+    # add the biases 
+    biases_added = tf.add(input_mult_weights, model_biases, name = "biases_added")
+    # apply sigmoid function 
+    sigmoid_activation = tf.nn.sigmoid(biases_added)
+
+    return sigmoid_activation
+
+
+# training variables 
+
+number_of_epochs =  700
+
+learning_rate = tf.keras.optimizers.schedules.ExponentialDecay(
+        initial_learning_rate = 0.008,
+        decay_steps = train_x.shape[0],
+        decay_rate = 0.95,
+        staircase = True)
 
 
 
+# 
