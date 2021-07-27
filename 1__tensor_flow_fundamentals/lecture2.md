@@ -4,9 +4,3 @@ A tensorflow variable is a tensor whose values are allowed to change, just like 
 
 
 Tf_variable= tf.variable([0,0,0])#defines a variable tensor
-
-
-
-
-
-
