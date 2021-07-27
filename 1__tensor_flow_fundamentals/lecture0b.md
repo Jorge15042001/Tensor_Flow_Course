@@ -12,7 +12,7 @@
 # Eager-Execution mode
 
 Without Eager-Execution | With Eager-Execution
----
+------------------------|--------------------
 The code is not run automatically | Code is executed line by line, like normal python code
 Intermediate results aren't accessible | you can access every variable along the code, useful for debugging
 The FlowGraph needs to be compile and then executed | The code is run line by line
