@@ -1,6 +1,6 @@
 # TensorFlow 2.x i and Eager-Execution
 
-![https://youtu.be/oHL-Y4frOPs](Lecture)
+![Lecture](https://youtu.be/oHL-Y4frOPs)
 
 # TensorFlow 2.x main features
 
