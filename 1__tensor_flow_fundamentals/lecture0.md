@@ -24,7 +24,7 @@ It uses a data FlowGraph that is composed by 2 units
 A tensor could be a:
 
 Name | dimensionality
---------------------
+-----|--------------
 Value | 0 dimension
 Vector | 1 dimension
 Matrix | 2 dimensions
@@ -33,7 +33,7 @@ N-dimensional-array | N dimensions
 # Computational Graph ingredients
 
 Name | Purpose
----
+---|------
 tf.placeholder() | inputs to the graph, like parameters in a function
 tf.Variable() | everything that needs to be referenced or persists
 
