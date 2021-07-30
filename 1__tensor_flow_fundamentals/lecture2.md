@@ -18,7 +18,7 @@ const_4 = tf.constant( matrrix[0] , name = "constant_3" )
 
 # Variables in TensorFlow
 
-A TensorFlow variable is a tensor whose values are allowed to change, just like in any programming language
+A TensorFlow variable is a tensor which value is allowed to change, just like in any programming language
 
 ```python 
 import tensorflow as tf
